@@ -15,7 +15,7 @@
 
 ## Live Demo
 
-[leaderboad]()
+[leaderboad](https://gordonotieno.github.io/leaderboard/)
 
 
 ## Getting Started
