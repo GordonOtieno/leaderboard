@@ -1,75 +1,55 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# Leaderboard
+> The leaderboard website displays scores submitted by different players. It also    allows you to submit your score. 
 
-# Project Name
-
-> Description the project.
+# Screenshort
+![](./Screenshot.jpg)
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+ - html
+ - css
+ - javascript
+ - **Frameworks** :webpack
 
-## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+## Live Demo
+
+[leaderboad](https://gordonotieno.github.io/leaderboard/)
 
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
+ In order to use the files, you will need to clone it and then follow the instructions below: 
+ 
+## Prerequisites
+- Good Knowlege of html and css.
+- Some knowledge of javascript.
+- Install nodejs then copy linters files from https://github.com/microverseinc/linters-config/tree/master/html-css-js
 
 ### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+Use 'git clone https://github.com/GordonOtieno/leaderboard.git' to clone the repository to your local environment and begin working on it.
 
 ## Authors
 
-👤 **Author1**
+👤 **Gordon Otieno**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@GordonOtieno](https://github.com/GordonOtieno)
+- Twitter: [@GordonO34459259](https://twitter.com/@GordonO34459259)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/GordonOtieno/leaderboard/issues).
+
+## Acknowledgements.
+[Leaderboard API Service](https://us-central1-js-capstone-backend.cloudfunctions.net/api/) developer of the API used.
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
 ## 📝 License
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./MIT.md) licensed.
 
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._

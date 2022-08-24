@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+$primary-color: #909394;
+$secondary-color: #f4f4f4;
+$box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  padding: 20px;
+}
+
+.Add-score {
+  position: absolute;
+  left: 0;
+  height: auto;
+  padding-bottom: 2rem;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  margin-top: 1.5rem;
+}
+
+.title {
+  font-family: sans-serif;
+  margin-left: 6px;
+  font-size: 3rem;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  border: 2px solid rgb(17, 14, 14);
+  box-shadow: $box-shadow;
+}
+
+td {
+  border: 1px solid #ddd;
+  text-align: left;
+  padding: 8px 200px 8px 10px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+tr:nth-child(even) {
+  background-color: #ddd;
+}
+
+.recent-score {
+  margin: 0 2rem;
+}
+
+.recent-score-cont {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+
+input {
+  margin-top: 2rem;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.submit {
+  padding: 5px;
+  margin-top: 1rem;
+  display: inline-block;
+}
+
+.form-title {
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+
+.input-items {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 1rem;
+  position: relative;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.refresh-btn {
+  padding: 0 10px;
+}
