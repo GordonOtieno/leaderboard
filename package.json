@@ -6,7 +6,9 @@
   "scripts": {
     "build": "webpack",
     "start": "webpack serve",
-    "deploy": "gh-pages -d dist/"
+    "deploy": "gh-pages -d dist/",
+    "predeploy": "webpack"
+    
   },
   "repository": {
     "type": "git",

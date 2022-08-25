@@ -1,11 +1,18 @@
-import generatejoke from './generatejoke';
+import addScore from './addScore';
+import recentScore from './recentScores';
+import { getScores } from './api.js';
 import './styles/main.scss';
-import laughing from './assets/test.svg';
 
-const laughImg = document.getElementById('testImg');
-laughImg.src = laughing;
+const tablecontent = document.querySelector('.scoreboard-table');
 
-const jokeBtn = document.getElementById('jokeBtn');
-jokeBtn.addEventListener('click', generatejoke);
+const display = async () => {
+  const scores = await getScores();
+  recentScore(scores);
+  addScore();
+};
 
-generatejoke();
+const refresh = document.querySelector('.refresh-btn');
+refresh.addEventListener('click', () => {
+  tablecontent.innerHTML = '';
+  display();
+});
