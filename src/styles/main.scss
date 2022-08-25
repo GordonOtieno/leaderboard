@@ -1,6 +1,7 @@
-*{
+* {
   box-sizing: border-box;
 }
+
 body {
   font-family: "poppins", sans-serif;
   margin: 0;
@@ -31,7 +32,7 @@ h1 {
 .recent-score-cont {
   display: flex;
   justify-content: space-between;
-
+  align-items: center;
 }
 
 .recent-scores-cont h2 {
@@ -42,6 +43,7 @@ h1 {
 table {
   border-collapse: collapse;
   border: 2px solid rgb(17, 14, 14);
+  background-color: white;
 }
 
 .table-row {
@@ -79,31 +81,20 @@ tr:nth-child(even) {
   margin-bottom: 20px;
   border: 2px solid rgb(54, 53, 53);
 }
-.refresh-btn,
+
+.refresh-btn {
+  height: 2rem;
+  border: 2px solid rgb(54, 53, 53);
+  cursor: pointer;
+  box-shadow: 3.5px 3.5px;
+}
+
 .submit-btn {
+  align-self: flex-end;
+  height: 30px;
+  margin-right: 38%;
   width: 70px;
   border: 2px solid rgb(54, 53, 53);
   cursor: pointer;
   box-shadow: 3.5px 3.5px;
 }
-.submit-btn {
-  align-self: flex-end;
-  align-self: flex-end;
-  height: 30px;
-  margin-right: 38%;
-}
-// .table-row {
-//   display: flex;
-//   width: 100%;
-// }
-
-// .table-row:nth-child(even) {
-//   background-color: rgba(148, 147, 147, 0.5);
-// }
-// .table-container {
-//   height: auto;
-//   min-height: 250px;
-//   margin: 20px 0;
-//   border: 1px solid grey;
-//   border-radius: 2px;
-// }
