@@ -27,6 +27,8 @@ h1 {
 
 .recent-scores {
   flex: 1;
+  max-height: 80vh;
+  overflow-y: scroll;
 }
 
 .recent-score-cont {
@@ -43,7 +45,6 @@ h1 {
 table {
   border-collapse: collapse;
   border: 2px solid rgb(17, 14, 14);
-  background-color: white;
 }
 
 .table-row {
@@ -58,7 +59,7 @@ td {
 }
 
 tr:nth-child(even) {
-  background-color: #ddd;
+  background-color: rgb(197, 184, 184);
 }
 
 .add-score {
@@ -84,17 +85,41 @@ tr:nth-child(even) {
 
 .refresh-btn {
   height: 2rem;
-  border: 2px solid rgb(54, 53, 53);
   cursor: pointer;
   box-shadow: 3.5px 3.5px;
+  width: 90px;
+  border: 2px solid rgb(54, 53, 53);
+  background-color: rgba(148, 147, 147, 0.5);
+  border-radius: 7px;
+  transition: 0.15s;
+}
+
+.refresh-btn:hover {
+  transform: scale(1.1);
 }
 
 .submit-btn {
   align-self: flex-end;
   height: 30px;
-  margin-right: 38%;
+  margin-right: 22%;
   width: 70px;
   border: 2px solid rgb(54, 53, 53);
   cursor: pointer;
   box-shadow: 3.5px 3.5px;
+  background-color: rgba(148, 147, 147, 0.5);
+  border-radius: 7px;
+  transition: 0.15s;
+}
+
+.submit-btn:hover {
+  transform: scale(1.1);
+}
+
+.add-form input[type=text] {
+  width: 80%;
+  padding: 5px;
+  height: 40px;
+  margin-bottom: 20px;
+  border: 2px solid rgb(54, 53, 53);
+  border-radius: 5px;
 }

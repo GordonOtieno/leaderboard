@@ -8,7 +8,6 @@
     "start": "webpack serve",
     "deploy": "gh-pages -d dist/",
     "predeploy": "webpack"
-    
   },
   "repository": {
     "type": "git",
@@ -46,6 +45,7 @@
     "webpack-dev-server": "^4.9.3"
   },
   "dependencies": {
-    "axios": "^0.27.2"
+    "axios": "^0.27.2",
+    "font-awesome": "^4.7.0"
   }
 }
