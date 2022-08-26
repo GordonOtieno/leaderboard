@@ -1,8 +1,8 @@
 # Leaderboard
-> The leaderboard website displays scores submitted by different players. It also    allows you to submit your score. 
+> The leaderboard website displays scores submitted by different players. It also allows you to submit your score. 
 
 # Screenshort
-![](./Screenshot.jpg)
+![leaderboard](./Screenshot.jpg)
 
 
 ## Built With
